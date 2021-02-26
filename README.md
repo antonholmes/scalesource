@@ -1,4 +1,3 @@
-# Next.js course
-> Learn Next.js
+# ScaleSource Job Matching App
 
-Follow along with [the course](https://hendrixer.github.io/nextjs-course/)
+> Built on Next.js
