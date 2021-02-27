@@ -36,9 +36,9 @@ const theme = {
       },
       compact: {
         padding: 1,
-        borderRadius: 2,
-        border: '1px solid',
-        borderColor: 'muted',
+        // borderRadius: 2,
+        // border: '1px solid',
+        // borderColor: 'muted',
       },
     },
     images: {
