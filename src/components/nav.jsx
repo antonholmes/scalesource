@@ -5,7 +5,7 @@ import Link from 'next/link'
 // import logo from '../../public/scalesource.png'
 
 const Nav = () => (
-  <header sx={{height: '60px', width: '100vw', bg: 'primary', borderBottom: '1px solid', borderColor: 'primary'}}>
+  <header sx={{height: '60px', width: '100vw', bg: 'muted', borderBottom: '1px solid', borderColor: 'muted'}}>
     <nav sx={{display: 'flex', alignItems: 'center',  justifyContent: 'space-between', variant: 'containers.page', height: '100%'}}>
       <Link href="/">
         <Image sx={{variant: 'containers.images.logo'}} src='/scalesource.png' alt='ScaleSource App' />
@@ -13,19 +13,19 @@ const Nav = () => (
       </Link>
 
       <Link href="/workers">
-        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Jobseeker</a>
+        <a sx={{color: 'text', fontSize: 1, cursor: 'pointer'}}>Jobseeker</a>
       </Link>
 
       <Link href="/how">
-        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>How it works</a>
+        <a sx={{color: 'text', fontSize: 1, cursor: 'pointer'}}>How it works</a>
       </Link>
 
       <Link href="/pricing">
-        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Pricing</a>
+        <a sx={{color: 'text', fontSize: 1, cursor: 'pointer'}}>Pricing</a>
       </Link>
 
       <Link href="/results">
-        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Real Results</a>
+        <a sx={{color: 'text', fontSize: 1, cursor: 'pointer'}}>Real Results</a>
       </Link>
 
       <Link href="/employers">
@@ -38,11 +38,11 @@ const Nav = () => (
       </Link> */}
 
       <Link href="/signup">
-        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Sign Up</a>
+        <a sx={{color: 'text', fontSize: 1, cursor: 'pointer'}}>Sign Up</a>
       </Link>
 
       <Link href="/login">
-        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Login</a>
+        <a sx={{color: 'text', fontSize: 1, cursor: 'pointer'}}>Login</a>
       </Link>
     </nav>
   </header>

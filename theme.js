@@ -1,7 +1,7 @@
-import { future } from '@theme-ui/presets'
+import { tailwind } from '@theme-ui/presets'
 
 const theme = {
-  ...future,
+  ...tailwind,
   forms: {
     label: {
       fontSize: 1,
@@ -128,7 +128,7 @@ const theme = {
     },
   },
   styles: {
-    ...future.styles
+    ...tailwind.styles
   }
 }
 
