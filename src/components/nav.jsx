@@ -16,15 +16,15 @@ const Nav = () => (
         <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Jobseeker</a>
       </Link>
 
-      <Link href="/">
+      <Link href="/how">
         <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>How it works</a>
       </Link>
 
-      <Link href="/">
+      <Link href="/pricing">
         <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Pricing</a>
       </Link>
 
-      <Link href="/">
+      <Link href="/results">
         <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Real Results</a>
       </Link>
 
@@ -37,9 +37,13 @@ const Nav = () => (
         <a sx={{color: 'text', fontSize: 3, cursor: 'pointer'}}>notes</a>
       </Link> */}
 
+      <Link href="/signup">
+        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Sign Up</a>
+      </Link>
 
-      <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}} href={process.env.HELP_APP_URL}>Sign Up</a>
-      <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}} href={process.env.HELP_APP_URL}>Login</a>
+      <Link href="/login">
+        <a sx={{color: 'text', fontSize: 2, cursor: 'pointer'}}>Login</a>
+      </Link>
     </nav>
   </header>
 )

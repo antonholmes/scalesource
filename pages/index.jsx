@@ -172,7 +172,7 @@ export default ({content}) => (
       <h1 sx={{fontSize: 6, my: 0, }}>{content.videohead}</h1>
       </div>
       <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/XCuE3bkP4PU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://drive.google.com/file/d/1IbPtkQ9n_ERABnq105IlJ5GUBjlnuMsn/preview" width="640" height='480'></iframe>
       </div>
       <div sx={{variant: 'containers.grid', display: 'row', alignItems: 'center', textAlign: 'center'}}>
         <Button sx={{variant: 'containers.buttons.primary'}}>Post a job</Button>
